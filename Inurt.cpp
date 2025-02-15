@@ -27,7 +27,13 @@ int main()
 
 
     // Pass by reference. Pass by value
+    // PASS BY VALUE
+    // When you pass a variable into a function, the value in it is copied into the variable. 
+    // When the value is copied into the function and it gets changed in the function, it doesn't affect the value of the variable outside of the function
+    // This is usually the behavious for most variable types except arrays
     // 
+    // PASS BY POINTER
+    //
 
 
     return 0;
