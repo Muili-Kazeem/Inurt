@@ -26,18 +26,20 @@ int main()
     // std::vector<std::vector<int>> grades = {{2, 3, 4}, {34, 53, 21} {3, 4, 54}}
 
 
-    // Pass by reference. Pass by value
+    // Pass by reference. Pass by value. Pass by Reference
     // PASS BY VALUE
     // When you pass a variable into a function, the value in it is copied into the variable. 
     // When the value is copied into the function and it gets changed in the function, it doesn't affect the value of the variable outside of the function
     // This is usually the behavious for most variable types except arrays
     // 
     // PASS BY POINTER
-    // For array, the values in the variables, by default, passed by pointers. This give a pointer to the memory location of that array
+    // For array, the values in the variables, by default, passed by pointers. It 'decays to a pointer'. This give a pointer to the memory location of that array
     // When the variable is passed into the function and it gets changed inside the function, it affects and changes the value of the variable outside of the function too
     // This is by virtue of the pointer to the memory location through which it was passed to the function
     //
-    //
+    // PASS BY REFERENCE
+    // This is similar to passing by pointer but it doesn't happen automatically. It has to be explicitly instructed
+    // 
     //
 
 
