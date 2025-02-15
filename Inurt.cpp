@@ -33,6 +33,11 @@ int main()
     // This is usually the behavious for most variable types except arrays
     // 
     // PASS BY POINTER
+    // For array, the values in the variables, by default, passed by pointers. This give a pointer to the memory location of that array
+    // When the variable is passed into the function and it gets changed inside the function, it affects and changes the value of the variable outside of the function too
+    // This is by virtue of the pointer to the memory location through which it was passed to the function
+    //
+    //
     //
 
 
