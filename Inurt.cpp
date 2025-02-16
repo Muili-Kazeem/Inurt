@@ -39,8 +39,11 @@ int main()
     //
     // PASS BY REFERENCE
     // This is similar to passing by pointer but it doesn't happen automatically. It has to be explicitly instructed
+    // This is done by prefixing the variable with & like so, function(type &var) { }
+    // As such the variable both in and out of the function will refer to the same area of memory and can be modified by both as such
+    // You most likely use this for datatypes that are passed by values by default to modify theri behaviour
+    // NB: Even objects are passed by value
     // 
-    //
 
 
     return 0;
