@@ -46,5 +46,18 @@ int main()
     // 
 
 
+    // Function Overloading
+    // This nigga said this is the cool part of programming. Time will tell
+    // Function overloading is the concept of having multiple versions of the same function identifiers. Usually, what changes is the type (datatype) of parameter passed to the function
+    // The return type of the multiple functions must also be similar. Having different return types defies the concept of function overloading
+    // NB: Overloading is not defined for optional parameters.
+
+
+
     return 0;
 }
+
+void like(int r)
+{
+    r* r;
+};
