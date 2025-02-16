@@ -52,6 +52,16 @@ int main()
     // The return type of the multiple functions must also be similar. Having different return types defies the concept of function overloading
     // NB: Overloading is not defined for optional parameters.
 
+    // MultiFile compilations
+    // As your program gets larger, it will make sense to keep things separated in multile files.
+    // For a start, you will most likely start off with 3 files which are usually:
+    // Header files (declarations), implementation file (definitions) and the main file (calling)
+    // all files will have .cpp extension except for the header files. This will have .h extension
+    // Header files aside declarations also contain preprocessd files
+    // The header files will be included in both implementation files
+    // 
+    //
+    //
 
 
     return 0;
