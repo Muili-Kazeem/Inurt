@@ -61,6 +61,12 @@ int main()
     // The header files will be included in both implementation files
     // 
     //
+
+    // Makefiles
+    // Basically automate the build process for C++ applications
+    // Ensures not every C++ files get compiled after every change in any file. Just recompile only the changed file(s) and ensure appropriate linking of all files to the full program
+    // This minimizes the amount of compilations necessary 
+    // a makefile is just a text file
     //
 
 
