@@ -48,7 +48,7 @@ int main()
 
     // Function Overloading
     // This nigga said this is the cool part of programming. Time will tell
-    // Function overloading is the concept of having multiple versions of the same function identifiers. Usually, what changes is the type (datatype) of parameter passed to the function
+    // Function overloading is the concept of having multiple versions of the same function identifiers. Usually, what changes is the type (datatype) of parameter passed to the function or the number of parameters it's defined with
     // The return type of the multiple functions must also be similar. Having different return types defies the concept of function overloading
     // NB: Overloading is not defined for optional parameters.
 
@@ -81,6 +81,22 @@ int main()
     // Also to group a project or part of a particular project
     // Also can be used to have a categories of things and chose which one you particularly want to use from a particular namespace
     //
+
+    // Function templates
+    // You may hear this as generics in other programming languages
+    // This can be tied to functions as well as classes
+    // 
+    // So here's the thing, when you create a function you define the type you want to accept as arguments. Of course, you can't accept any other types aside that
+    // This point is where function overloading trickles in. Where functions have multiple versions of the same function identifiers but different types of parameter or number of parameter.
+    // In the case of function overloading, the compiler determines what funtion to call based on the number or type of argument passed to the function
+    // Function templates comes in in the sense that you don't define the types but use something that is generic. A placeholder for any type. A template sort of for the parameter
+    // To indicate to the compiler that you are about to define a function template, you use this syntax:
+    //      template <typename T>
+    //      void swap ( T &x, T &y) { }
+    // Here, T = Generic/Template type, x and y = parameter, & = passing the argument by reference.
+    // In the fucntion body definition, you get to use T as if it were any other type
+    // 
+    // 
 
 
 
