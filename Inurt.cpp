@@ -66,8 +66,22 @@ int main()
     // Basically automate the build process for C++ applications
     // Ensures not every C++ files get compiled after every change in any file. Just recompile only the changed file(s) and ensure appropriate linking of all files to the full program
     // This minimizes the amount of compilations necessary 
-    // a makefile is just a text file
+    // a makefile is just a text file and it has a particular strict syntax to it
     //
+
+    // Namespaces
+    // A very popular namespace we have used so far is the standard namespace - std
+    // Namespaces basically give a scope to the identifier in the namespace. They are very important when avoiding naming conflicts
+    // We can create our own namespace and it is very easy like so:
+    //      namespace foo {
+    //      define everything you want to be part of the namespace here
+    //      }
+    // 
+    // You would want to use a namepsace in the case of defining a set of common functionality
+    // Also to group a project or part of a particular project
+    // Also can be used to have a categories of things and chose which one you particularly want to use from a particular namespace
+    //
+
 
 
     return 0;
