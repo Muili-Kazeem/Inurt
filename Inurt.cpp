@@ -100,7 +100,7 @@ int main()
 
 
     // OBJECT ORIENTED PROGRAMMING
-    // Classes and objects form the fundamental basis for OOP. Class define the structure, the blueprint that is used to make instances of an object.
+    // Classes and objects form the fundamental basis for OOP. Class defines the structuren or the shape of some data. It's the blueprint that is used to make instances of an object.
     // It is basically used to define and instantiate objects
 
     // Concepts in OOP
@@ -115,6 +115,15 @@ int main()
     // 
     // POLYMORPHISM
     // This is where classes can be interpreted as other classes such as their parent classes
+    //
+
+
+
+    // STRUCTS
+    // In C++, a struct and a class are essntially the same thing. Both will create object
+    // Difference is just generally conventional. People use structs for generally small structures and classes for larger structures
+    // 
+    // 
     //
 
 
