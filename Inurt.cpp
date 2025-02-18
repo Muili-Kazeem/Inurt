@@ -103,6 +103,19 @@ int main()
     // Classes and objects form the fundamental basis for OOP. Class define the structure, the blueprint that is used to make instances of an object.
     // It is basically used to define and instantiate objects
 
+    // Concepts in OOP
+    // STRUCTS
+    // These are similar to classes but by convention, they are used for smaller object concepts while classes are reserved for much larger ones
+    // 
+    // ENCAPSULATION
+    // This is basically hiding the inner details of classes and hwo to interact with class
+    //
+    // INHERITANCE
+    // This is where classes inherit from other classes
+    // 
+    // POLYMORPHISM
+    // This is where classes can be interpreted as other classes such as their parent classes
+    //
 
 
     return 0;
