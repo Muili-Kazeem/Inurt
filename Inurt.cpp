@@ -99,6 +99,11 @@ int main()
     // A reminder that function templates can be overloaded
 
 
+    // OBJECT ORIENTED PROGRAMMING
+    // Classes and objects form the fundamental basis for OOP. Class define the structure, the blueprint that is used to make instances of an object.
+    // It is basically used to define and instantiate objects
+
+
 
     return 0;
 }
