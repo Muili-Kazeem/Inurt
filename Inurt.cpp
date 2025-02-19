@@ -121,13 +121,24 @@ int main()
     // Public: Public members will be visible and can be accessed on objects instantiated from that class
     // Private: Private members will not be visible on the object instantiated from that class but can only be accessed within that class definition
     // Protected: Similar to private but extends down to the class that inherits from that class
+    // Static: They are not associated with each object but instead describe the class in general
     //
 
     // STRUCTS
     // In C++, a struct and a class are essentially the same thing. Both will create an object
-    // Difference is just generally conventional. People use structs for generally small structures and classes for larger structures
+    // Difference is just generally conventional. People use structs for generally small and simple structures and classes for larger and complex structures
+    // Also, devs just use structs to container data members and avoid putting functionalities inside of structs.
+    // 
     // Other differences include:
-    // Syntactically, both have different default access modifiers behaviour.
+    // In structs, the members are public by default. While class' members are private by default
+    // To change the behaviours of the members, you specify and prefix the member definition by the desired access modifiers
+    // 
+
+    // CLASS
+    // First off, know that when you are creating a class, you are essentially building a new type
+    // Instantiating an object from a class in C++ doesn't require using the new keyword. You just do like so:
+    //  Class objectIdentifier;
+    // And that instantiates the object from the class
     // 
     //
 
