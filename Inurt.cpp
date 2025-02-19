@@ -108,7 +108,7 @@ int main()
     // These are similar to classes but by convention, they are used for smaller object concepts while classes are reserved for much larger ones
     // 
     // ENCAPSULATION
-    // This is basically hiding the inner details of classes and hwo to interact with class
+    // This is basically hiding the inner details of classes and how to interact with class
     //
     // INHERITANCE
     // This is where classes inherit from other classes
@@ -117,12 +117,17 @@ int main()
     // This is where classes can be interpreted as other classes such as their parent classes
     //
 
-
+    // Access Modifiers
+    // Public: Public members will be visible and can be accessed on objects instantiated from that class
+    // Private: Private members will not be visible on the object instantiated from that class but can only be accessed within that class definition
+    // Protected: Similar to private but extends down to the class that inherits from that class
+    //
 
     // STRUCTS
-    // In C++, a struct and a class are essntially the same thing. Both will create object
+    // In C++, a struct and a class are essentially the same thing. Both will create an object
     // Difference is just generally conventional. People use structs for generally small structures and classes for larger structures
-    // 
+    // Other differences include:
+    // Syntactically, both have different default access modifiers behaviour.
     // 
     //
 
