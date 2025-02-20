@@ -136,7 +136,7 @@ int main()
 
     // CLASS
     // First off, know that when you are creating a class, you are essentially building a new type
-    // Instantiating an object from a class in C++ doesn't require using the new keyword. You just do like so:
+    // Instantiating an object from a class in C++ doesn't require using the new keyword like yous ee in . You just do like so:
     //  Class objectIdentifier;
     // And that instantiates the object from the class
     // 
