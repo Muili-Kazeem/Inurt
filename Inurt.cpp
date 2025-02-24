@@ -140,6 +140,7 @@ int main()
     //  Class objectIdentifier;
     // And that instantiates the object from the class
     //
+    // STATIC access modifiers
     // 
     // OPERATOR OVERLOADING IN CLASSES AND OBJECTS
     //
